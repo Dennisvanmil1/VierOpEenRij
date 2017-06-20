@@ -1,4 +1,4 @@
-package nl.ycp.vierOpEenRij;
+package nl.ycp.vieropeenrij;
 
 public class User {
 	private String name;

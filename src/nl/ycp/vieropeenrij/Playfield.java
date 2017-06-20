@@ -1,4 +1,4 @@
-package nl.ycp.vierOpEenRij;
+package nl.ycp.vieropeenrij;
 
 import java.util.ArrayList;
 
