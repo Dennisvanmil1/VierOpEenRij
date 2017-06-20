@@ -14,14 +14,14 @@ import javax.servlet.http.HttpServletResponse;
 public class Grid extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	private int collumnA = 1;
-	private int collumnB = 1;
-	private int collumnC = 1; 
-	private int collumnD = 1; 
-	private int collumnE = 1; 
-	private int collumnF = 1; 
-	private int collumnG = 1; 
-	private int collumnH = 1; 
+	private int collumnA = 0;
+	private int collumnB = 0;
+	private int collumnC = 0; 
+	private int collumnD = 0; 
+	private int collumnE = 0; 
+	private int collumnF = 0; 
+	private int collumnG = 0; 
+	private int collumnH = 0; 
 	
 	private String token = "XX";
 	
@@ -102,14 +102,14 @@ public class Grid extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Grid g = new Grid();
-		g.setCollumnA(1);
-		g.setCollumnB(1);
-		g.setCollumnC(1);
-		g.setCollumnD(1);
-		g.setCollumnE(1);
-		g.setCollumnF(1);
-		g.setCollumnG(1);
-		g.setCollumnH(1);
+		g.setCollumnA(8);
+		g.setCollumnB(8);
+		g.setCollumnC(8);
+		g.setCollumnD(8);
+		g.setCollumnE(8);
+		g.setCollumnF(8);
+		g.setCollumnG(8);
+		g.setCollumnH(8);
 		g.setToken("Y");
 		
 		request.setAttribute("g", g);
