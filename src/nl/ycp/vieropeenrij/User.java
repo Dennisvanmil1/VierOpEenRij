@@ -7,7 +7,7 @@ public class User {
 	
 	public User(String name) {
 		this.name = name;
-		id = Math.random() * 1000;
+		id = (int) (Math.random() * 1000);
 	}
 	
 	public String getName() {
