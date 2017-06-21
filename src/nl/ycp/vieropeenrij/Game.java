@@ -1,5 +1,7 @@
 package nl.ycp.vieropeenrij;
 
+import java.util.ArrayList;
+
 public class Game {
 	private User p1;
 	private User p2;
@@ -11,7 +13,7 @@ public class Game {
 		
 		for(int i = 0; i < x; i++) {
 			for(int ii = 0; ii < y; ii++) {
-				field.get(i).set(ii, null);
+				board.get(i).set(ii, null);
 			}
 		}
 	}
