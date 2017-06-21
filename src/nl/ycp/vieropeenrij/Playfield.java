@@ -19,10 +19,5 @@ public class Playfield {
 				field.get(i).set(ii, null);
 			}
 		}
-	}
-	
-	public void move(int x, User u) {
-		int p = u.getPlayer();
-		
-	}
+	}}
 }
