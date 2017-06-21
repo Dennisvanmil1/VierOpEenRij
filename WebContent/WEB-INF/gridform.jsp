@@ -12,8 +12,16 @@
 
 <div id= "tableform">
 
-
-<table style="width:400px">
+	<button type="button">A</button>
+	<button type="button">B</button>
+	<button type="button">C</button>
+	<button type="button">D</button>
+	<button type="button">E</button>
+	<button type="button">F</button>
+	<button type="button">G</button>
+	<button type="button">H</button>
+	
+<table style="width:420px">
   	<tr>
   	<td><c:if test="${g.collumnA > 0}">${g.token}</c:if></td>
    	<td><c:if test="${g.collumnB > 0}">${g.token}</c:if></td>
