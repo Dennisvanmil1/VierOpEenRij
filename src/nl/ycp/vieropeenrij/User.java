@@ -5,10 +5,12 @@ public class User {
 	private int id;
 	private int score;
 	private int player;
+	private int movesDone;
 	
-	public User(String name) {
+	public User(String name, int player) {
 		this.name = name;
 		id = (int) (Math.random() * 1000);
+		this.player = player;
 	}
 	
 	public String getName() {
@@ -23,7 +25,9 @@ public class User {
 	public int getPlayer() {
 		return player;
 	}
-	
+	public int getMovesDone() {
+		return movesDone;
+	}
 	
 	public void setName(String name) {
 		this.name = name;
@@ -33,5 +37,8 @@ public class User {
 	}
 	public void setPlayer(int player) {
 		this.player = player;
+	}
+	public void setMovesDone(int movesDone) {
+		this.movesDone = movesDone;
 	}
 }
