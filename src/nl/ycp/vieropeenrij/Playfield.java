@@ -7,6 +7,10 @@ public class Playfield {
 	private int y;
 	protected ArrayList<ArrayList<Object>> field = new ArrayList<>();
 	
+	public Playfield() {
+		this(8,8);
+	}
+	
 	public Playfield(int x, int y) {
 		this.x = x;
 		this.y = y;
@@ -15,5 +19,10 @@ public class Playfield {
 				field.get(i).set(ii, null);
 			}
 		}
+	}
+	
+	public void move(int x, User u) {
+		int p = u.getPlayer();
+		
 	}
 }
