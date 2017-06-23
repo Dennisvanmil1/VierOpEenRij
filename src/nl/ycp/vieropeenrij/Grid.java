@@ -23,7 +23,7 @@ public class Grid extends HttpServlet {
 	private int collumnG = 0; 
 	private int collumnH = 0; 
 	
-	private String token = "XX";
+	private String token = "XXX";
 	
 	public String getToken() {
 		return token;
