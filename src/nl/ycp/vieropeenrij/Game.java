@@ -23,7 +23,7 @@ public class Game {
 		this(p1,p2,8,8);
 	}
 
-	public User getP1() {
+	protected User getP1() {
 		return p1;
 	}
 
