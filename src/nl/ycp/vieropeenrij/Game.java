@@ -23,8 +23,7 @@ public class Game {
 		this(p1,p2,8,8);
 	}
 
-	private User getP1() {
-
+	public User getP1() {
 		return p1;
 	}
 
