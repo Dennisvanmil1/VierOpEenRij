@@ -23,7 +23,9 @@ public class Game {
 		this(p1,p2,8,8);
 	}
 
-	protected User getP1() {
+
+	User getP1() {
+
 		return p1;
 	}
 
