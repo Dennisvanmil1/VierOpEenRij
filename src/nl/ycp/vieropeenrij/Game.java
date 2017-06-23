@@ -16,6 +16,7 @@ public class Game {
 				board.get(i).set(ii, null);
 			}
 		}
+		System.out.println("new game started");
 	}
 	
 	public Game(String p1,  String p2) {

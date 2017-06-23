@@ -19,5 +19,5 @@ public class Playfield {
 				field.get(i).set(ii, null);
 			}
 		}
-	}}
+	}
 }

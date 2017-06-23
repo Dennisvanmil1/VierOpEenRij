@@ -9,8 +9,10 @@
 <title>Start</title>
 </head>
 <body>
-
-<button type="button">Start</button>
-
+	<form method="post" action="">
+		player 1: <input type="text" name="p1"> <br>
+		player 2: <input type="text" name="p1"> <br>
+		<input type = "submit">
+	</form>
 </body>
 </html>
